@@ -627,3 +627,10 @@ on property:vold.decrypt=trigger_restart_min_framework
 
 on property:vold.decrypt=trigger_restart_framework
     start audio-hal-2-0
+    
+on property:vendor.usb.config=*
+   start usbd
+
+on property:persist.vendor.usb.usbradio.config=*
+   start usbd
+
