@@ -360,7 +360,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service
+    android.hardware.usb@1.0-service.zuk_msm8996
 
 # VNDK
 PRODUCT_PACKAGES += \
